@@ -7,11 +7,14 @@ const tabelaDeXP = [
    { limite: 9000, nome: "Ascendente" },
    { limite: 10000, nome: "Imortal" }
 ]
-
-//-- Mude o nome do Herói aqui
+//======================================
+//=== Mude o nome do Herói aqui ========
+//======================================
 const nomeDoHeroi = 'Superman';
 
-//-- Mude a quantidade de XP aqui
+//======================================
+//=== Mude a quantidade de XP aqui =====
+//======================================
 const xpDoHeroi = 9000;
 
 let nivelDoHeroi = "";
@@ -27,4 +30,4 @@ for (let i = 0; i < tabelaDeXP.length; i++) {
    }
 }
 
-console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + nivelDoHeroi + "!");
+console.log("O Herói de nome **{" + nomeDoHeroi + "}** está no nível de **{" + nivelDoHeroi + "}**!");
